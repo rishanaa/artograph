@@ -1,0 +1,54 @@
+.login2{
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(116, 114, 114, 0.527),rgba(122, 120, 120, 0.514)), url('../Images/bg1.jpg');
+      background-size: cover;
+      background-repeat: repeat;
+      position: absolute;
+      margin-top: -70px;
+
+}
+.login2 .login-cont{
+      width: 30%;
+      height: 70%;
+      background-color: white;
+      border-radius: 5px;
+      margin-left: 35%;
+      margin-top: 8%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* text-align: center; */
+    padding: 35px;
+      position: absolute;
+}
+.login2 .login-cont .register{
+      display: flex;
+      margin-top: 8%;
+    align-items: baseline;
+    margin-bottom: 10px;
+      
+}
+.login2 .login-cont .register button{
+      margin-left: 5px;
+      background-color: white;
+      border-radius: 15px;
+      font-size: 13px;
+      font-weight: 620;
+      padding: 3px 18px;
+}
+.login2 .login-cont input{
+      margin: 10px 0px;
+      border-radius: 5px;
+      border: .5px solid gray;
+}
+.login2 .login-cont .login-but{
+      margin-top: 20px;
+      background-color:#000000 ;
+      color: white;
+      border: none;
+      width: 94%;
+      border-radius: 5px;
+      padding: 6px;
+}
+.login2 .login-cont .inputs{
+      margin-left: 15px;
+}

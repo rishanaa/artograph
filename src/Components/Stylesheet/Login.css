@@ -1,0 +1,273 @@
+.login{
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+     position: absolute;
+     margin-top: -100px;
+}
+.login .cont1{
+      width: 80%;
+      height: 105%;
+      margin-left: 130px;
+      overflow: hidden;
+      background-color: white;
+      position: absolute;
+}
+.login .cont2{
+      width: 68%;
+      height: 75%;
+      margin-top:110px;
+      margin-left: 15%;
+      background-color: white;
+      position: absolute;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      padding-left: 70px;
+
+
+}
+
+
+
+@keyframes color {
+      0%   { background: #dd205931; }
+      20%  { background: #1880e233; }
+      40%  { background: #ee0f773a; }
+      60%  { background: #f1c40f36; }
+      80%  { background: #0bf00b31; }
+      100% { background: #07f8f82f; }
+    }
+
+.login .cont2 .image-div{
+      background: #07f8f813; 
+      animation: color 9s infinite linear;
+      width: 200px;
+      height: 200px;
+      background-color: white;
+      border-radius: 20px;
+
+      position: absolute;
+      margin-top: 40px;
+}
+
+
+.login .cont2 .img1{
+      width: 110px;
+      height: 38px;
+      margin-top: 25px;
+}
+.login .cont2 .img2{
+      width: 150px;
+      height: 230px;
+      margin-top: 90px;
+      margin-left: 30px;
+      position: absolute;
+}
+@keyframes example {
+      0%   { left:5px;}
+      25%   {left:25px}
+      50%  { left:40px;}
+      75%    {left:55px}
+      100%  { left:70px;}
+
+    }
+    @keyframes examples {
+      0%   { left:200px;}
+      25%   {left:160px}
+      50%  { left:100px;}
+      75%    {left:40px}
+      100%  { left:70px;}
+
+    }
+.login .cont2 .img3{
+      width: 50px;
+      height: 60px;
+      margin-top: 250px;
+      margin-left:180px;
+      position: absolute;
+      animation-name: example;
+  animation-duration: .5s;
+
+}
+.login .cont2 .img4{
+      width: 150px;
+      height: 160px;
+      margin-top: 150px;
+      margin-left:180px;
+      position: absolute;
+      animation-name: examples;
+  animation-duration: .5s;
+
+}
+.login .cont2 h5{
+      margin-top: 25px;
+      font-family: 'Cormorant Unicase', serif;
+      font-size: 27px;
+}
+.login .cont2 .cont22{
+      width: 380px;
+      height: 380px;
+      background-color: rgb(243, 240, 240);
+      margin-left: 50%;
+      margin-top: -80px;
+      position: relative;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      padding: 20px;
+      overflow: hidden;
+      color:#6a6f8c;
+
+}
+.login .cont2 .cont22 button{
+      border: none;
+      background-color: #243a4e;
+      color: white;
+      border-radius: 5px;
+
+}
+.login .cont2 .cont22 button,input{
+      padding: 5px 25px;
+      width: 300px;
+     margin-left: 20px;
+     /* margin-bottom: 10px; */
+
+
+}
+.login .cont2 .sign-in-htm button{
+      margin-top: 20px;
+      margin-bottom: 6px;
+}
+.login .cont2 .sign-in-htm input{
+      margin-top: 10px;
+      margin-bottom: 6px;
+      
+}
+.login .cont2 .sign-in-htm label{
+      margin-top: 10px;
+      margin-bottom: 6px;
+}
+
+.login .cont2 .sign-up-htm input{
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+}
+.login .cont2 .sign-up-htm button{
+      margin-top: 15px;
+}
+
+.login .cont2 .cont22 input{
+      border: none;
+      border-radius: 10px;
+}
+.login .cont2 .cont22 label{
+      margin-left: 20px;
+
+}
+.check{
+      width: 20px;
+      margin-top: 20px;
+}
+
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+
+	position:absolute;
+	transform:rotateY(180deg);
+	-webkit-backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up{
+	display:none;
+}
+
+.login-html .tab{
+	font-size:22px;
+	margin-right:5px;
+	padding-bottom:15px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#243a4e;
+	border-color: #b60d5d;
+}
+
+
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+@media (max-width:1200px){
+
+      .login .cont2{
+            width: 90%;
+            height: 85%;
+            margin-top:80px;
+            margin-left: 5%;
+            padding-left: 10px;
+      
+      
+      }
+      
+      .login .cont2 .image-div{
+            width: 0px;
+            height: 0px;
+            margin-top: 0px;
+      }
+      
+      
+      .login .cont2 .img1{
+            width: 80px;
+            height: 28px;
+            margin-top: 10px;
+      }
+      .login .cont2 .img2{
+            width: 0px;
+            height: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+      }
+      
+      .login .cont2 .img3{
+            width: 0px;
+            height: 0px;
+            margin-top: 0px;
+            margin-left:0px;
+      }
+      .login .cont2 .img4{
+            width: 0px;
+            height: 0px;
+            margin-top: 0px;
+            margin-left:0px;
+      }
+      .login .cont2 h5{
+            margin-top: 10px;
+            font-size: 26px;
+      }
+      .login .cont2 .cont22{
+            width: 380px;
+            height: 380px;
+            margin-left: 10%;
+            margin-top: 30px;
+            padding: 20px;
+      }
+      .login .cont2 .cont22 button{
+            font-size: 13px;
+      
+      }
+      
+      .login-html .tab{
+            font-size:17px;
+            margin-right:15px;
+            padding-bottom:5px;
+            margin:0 15px 10px 0;
+            display:inline-block;
+            border-bottom:2px solid transparent;
+      }
+}

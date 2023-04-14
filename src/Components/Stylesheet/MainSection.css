@@ -1,0 +1,443 @@
+.container1{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      
+}
+.first-half{
+      height: 450px;
+      width: 135vh;
+      background-color: black;
+      display: flexbox;
+      border-radius: 10px;
+      background-image: url("../Images/bg3.jpeg");
+      background-size: cover;
+
+}
+.second-half{
+      height: 450px;
+      width: 55vh;
+      background-color: black;
+}
+.square1{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      background-color:white ;
+}
+.square2{
+      width: 30px;
+      height: 30px;
+      margin-top: 30px;
+      margin-left: 30px;
+      position: absolute;
+      background-color: white;
+} 
+.heading {
+      text-align: left;
+      margin-left: 150px;
+      margin-top: 70px;
+      position: absolute;
+      
+}
+.heading p{
+      font-weight: 500;
+      color: rgb(250 250 250);
+}
+.heading h1{
+      font-family: 'Cormorant Unicase', serif;
+      width: 50%;
+      font-size: 60px;
+      margin-top: -15px;
+      color: rgb(250 250 250);
+     
+}
+span{
+      color: grey;
+}
+.button1 button{
+      position: relative;
+      display: block;
+      outline: none;
+      color: rgba(24, 23, 23, 0.884); 
+      background-color: black;
+      padding: 10px 15px;
+      letter-spacing: .8px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgb(179, 172, 172);
+      overflow: hidden;
+     font-size: 15px;
+     margin-top: 15px;
+     border: none;
+}
+
+.button1 button:hover{
+      /* box-shadow: 0 5px 15px rgb(46, 7, 7); */
+      letter-spacing: 2px;
+      padding: 10px 25px;
+}
+.button1 button:after{
+      position: absolute;
+      content: '';
+      left:0;
+      top: 0;
+      height: 250%;
+      width: 108%;
+      transition: all .5s ease-in-out;
+      background: white;
+      
+      transform: translate(-98%,-25%) ;
+   
+
+}
+.button1:hover button:after{
+   transform: translate(-9%, -25%);
+}
+.button1 button span{
+      position: relative;
+      z-index: 1;
+}
+
+.second-half img{
+  width: 300px;
+  height: 300px;
+  margin-top: 75px;
+  margin-right: 600px;
+  margin-left: -150px;
+}
+.img-div{
+      width:330px;
+      height: 330px;
+      border-radius: 100%;
+      border: 3px dotted white;
+      margin-top: -315px;
+      margin-left: -164px;
+     overflow: hidden;
+
+}
+
+.second-half .round2{
+      height: 150px;
+      width: 150px;
+     overflow: hidden;
+      
+      background-color: rgba(248, 248, 248, 0);
+      border: 1px solid white;
+      border-radius: 100%;
+      margin-top: -400px;
+      margin-left: 300px;
+}
+.second-half .round3{
+      height: 150px;
+      border-radius: 100%;
+      width: 150px;
+      background-color:rgba(248, 248, 248, 0);
+      border: 2px dotted white;
+     margin-left: 300px;
+     margin-top: -80px;
+     overflow: hidden;
+      
+}
+
+/* about section */
+
+.about{
+      display: flex;
+      margin-right: 20px;
+      
+}
+.about .ab1{
+      padding-left: 25px;
+      display: flex;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background-size: cover;
+      width: 35%;
+      height: 20%;
+      background-color: #f4ebec;
+      
+}
+.about  .ab11{
+      width: 50%;
+}
+.about .ab11 h1{
+      font-size: 21px;
+      margin-top: 28%;
+      /* color: white; */
+}
+.about .ab1 img{
+      width: 98%;
+      height: 100%;
+
+}
+.about .ab11 button{
+      /* border: .5px solid #b60d5d; */
+      border: none;
+      font-size: 12px;
+      color: white; 
+      background-color: #b60d5d;
+      border-radius: 3px;
+      padding: 5px 15px;
+      font-weight: 700;
+      margin-top: 10px;
+      cursor: pointer;
+}
+
+.about .ab2 .img1{
+      width: 210px;
+      /* padding-top: 20px; */
+      height: 210px;
+      margin-right: 2px;
+}
+.about .ab2{
+      padding-left: 25px;
+      /* padding: 2px; */
+      display: flex;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background-size: cover;
+      width: 35%;
+      height: 212px;
+      background-color: #e1e3e7;
+}
+.about .ab2 .ab22{
+      width: 50%;
+}
+.about .ab22 h1{
+      font-size: 21px;
+      margin-top: 28%;
+      /* color: white; */
+}
+
+.about .ab22 button{
+      /* border: .5px solid #b60d5d; */
+      border: none;
+      font-size: 12px;
+      color: white; 
+      background-color: #b60d5d;
+      border-radius: 3px;
+      padding: 5px 15px;
+      font-weight: 700;
+      margin-top: 10px;
+      cursor: pointer;
+}
+.about .ab3 img{
+      width: 180px;
+      /* margin-top: 10px; */
+      height: 210px;
+      margin-left: 15px;
+
+}
+.about .ab3{
+      padding-left: 25px;
+      /* padding: 2px; */
+      display: flex;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background-size: cover;
+      width: 35%;
+      height: 212px;
+      background-color:#ede6e0;
+}
+.about .ab3 .ab33{
+      width: 50%;
+}
+.about .ab33 h1{
+      font-size: 21px;
+      margin-top: 28%;
+      /* color: white; */
+}
+
+.about .ab33 button{
+      /* border: .5px solid #b60d5d; */
+      border: none;
+      font-size: 12px;
+      color: white; 
+      background-color: #b60d5d;
+      border-radius: 3px;
+      padding: 5px 15px;
+      font-weight: 700;
+      margin-top: 10px;
+      cursor: pointer;
+}
+.header .butt2{
+   font-size: 25px;
+}
+
+
+@media (max-width:1200px){
+      
+      .container1{
+            margin-top: 0px;
+      }
+      .first-half{
+            height: 285px;
+            width: 50vh;
+      }
+      .second-half{
+            height: 285px;
+            width: 25vh;
+      }
+      .square1{
+            width: 20px;
+            height: 20px;
+      }
+      .square2{
+            width: 20px;
+            height: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+      }
+      .heading {
+            margin-left: 50px;
+            margin-top: 50px;
+      }
+      .heading p{
+            font-weight: 400;
+            font-size: 13px;
+      }
+      .heading h1{
+            width: 50%;
+            font-size: 30px;
+            margin-top: -15px;
+           
+      }
+      .heading button{
+            padding: 5px 6px;
+            letter-spacing: 0px;
+            font-size: 13px;
+      }
+      .second-half img{
+            width: 140px;
+            height: 140px;
+            margin-top: 75px;
+            margin-left: -70px;
+          }
+          .img-div{
+            width:150px;
+            height: 150px;
+            border-radius: 100%;
+            border: 2px dotted white;
+            margin-top: -145px;
+            margin-left: -76px;
+      }
+          .second-half .round1{
+                height: 80px;
+                width: 80px;
+                margin-top: -20px;
+                margin-left: 0px;
+          }
+          .second-half .round2{
+                height: 80px;
+                width: 80px;
+                margin-top: -230px;
+                margin-left: 110px;
+          }
+         
+          .button1 button:hover{
+            letter-spacing: 0px;
+      padding: 5px 8px;
+          }
+          .login label{
+            font-size: 14px;
+          }
+          .login .label{
+            margin-top: 20px;
+          }
+          /* about section */
+ .about .ab1{
+      padding-left: 10px;
+      margin-left: 15px;
+      width: 32%;
+     
+}
+          .about .ab11 h1{
+            width: 150px;
+            font-size: 15px;
+            margin-top: 150px;
+      }
+      .about .ab1 img{
+            width: 150px;
+            height: 130px;
+           margin-left: -90px;
+      }
+      .about .ab11 button{     
+            padding: 5px 5px;
+            font-weight: 600;
+            width: 100px;
+            margin-bottom: 20px;
+      }
+      
+      .about .ab2 .img1{
+            width: 150px;
+            margin-left: -80px;
+            height: 120px;
+            margin-right: 2px;
+      }
+      .about .ab2{
+            padding-left: 10px;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            background-size: cover;
+            width: 32%;
+            height: 250px;
+            background-color: #e1e3e7;
+      }
+      .about .ab2 .ab22{
+            width: 50%;
+      }
+      .about .ab22 h1{
+            font-size: 15px;
+            margin-top: 150px;
+            width: 150px;
+      }
+      
+      .about .ab22 button{
+            padding: 5px 5px;
+            font-weight: 600;
+            width: 100px;
+            margin-bottom: 20px;
+      }
+      .about .ab3 img{
+            width: 140px;
+            /* margin-top: 10px; */
+            height: 120px;
+            margin-left: -70px;
+           
+      }
+      .about .ab3{
+            padding-left: 10px;
+            margin-left: 10px;
+            width: 32%;
+            height: 250px;
+            background-color:#ede6e0;
+      }
+      .about .ab3 .ab33{
+            width: 50%;
+      }
+      .about .ab33 h1{
+            font-size: 15px;
+            margin-top: 150px;
+            width: 150px;
+
+      }
+      
+      .about .ab33 button{
+            padding: 5px 5px;
+            font-weight: 600;
+            width: 100px;
+            margin-bottom: 20px;
+      }
+      .header .butt2{
+            font-size: 20px;
+         }
+         
+}
